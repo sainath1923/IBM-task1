@@ -1,0 +1,132 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6500b6;
+    padding:10px 30px;
+
+}
+.navigation_left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.navigation_left h3{
+ color: #fff;
+ padding: 5px;
+ margin: 0;
+}
+.navigation_left p{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+   }
+
+.navigation_right ul{
+ padding: 0;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.navigation_right ul li{
+    list-style-type: none;
+    padding: 0 15px;
+}
+.navigation_right ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+}
+.profile img{
+    width: 300px;
+}
+.profile_right{
+    padding-left: 100px;
+}
+.profile h2{
+    color: #6500b6;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+.profile p{
+    color: #333;
+font-size: 26px;
+padding-right: 40px;
+}
+
+.skills_wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.skills h2{
+    color: #6500b6;
+    padding-left: 30px;
+    font-size: 42px;
+}
+.skill{
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.projects{
+ padding: 0 20px;
+}
+.projects h2{
+    color: #6500b6;
+    font-size: 48px;
+}
+.projects h3{
+    color: #000;
+    font-size: 28px;
+}
+.projects li{
+    font-size: 22px;
+    border-bottom: solid 1px #ccc;
+}
+.projects_wrap{
+padding-left: 50px;
+}
+
+.recommendations{
+    padding: 0 20px;
+}
+.recommendations h2{
+    color: #6500b6;
+    font-size: 42px;
+}
+.recommendations_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    margin: 0 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form input{
+    margin-bottom: 10px;
+}
+.form button{
+    color: #6500b6;
+}
